@@ -1,7 +1,7 @@
 USE movies
 SET NOCOUNT ON
 
--- 基于序列号的用户-电影关联矩阵
+-- User-Movie Incidence Matrices based on Sequence Index
 IF OBJECT_ID('dbo.UserMovieMatrix_seq', 'U') IS NOT NULL
 DROP TABLE dbo.UserMovieMatrix_seq
 GO
@@ -23,9 +23,11 @@ WHERE dbo.UserSeq.UserId = dbo.Ratings.UserId and dbo.MovieSeq.MovieId = dbo.Rat
 ORDER BY dbo.UserSeq.USeq, dbo.MovieSeq.MSeq
 GO
 
- --基于ID的用户-电影关联矩阵
- --注意要求ID为正整数
- --基于ID的矩阵相比基于序列号更大 更稀疏 但是存储为三元组占用空间是一样的
+-- User-Movie Incidence Matrices based on ID
+-- NOTE: this can be used only if ID is positive integer
+-- actually this matrix is bigger than the one based on Sequence Index, 
+-- but since they are both sparse and we use triplet like (row_index, column_index, value) to represent them
+-- the memory consumption are indeed the same 
 
 IF OBJECT_ID('dbo.UserMovieMatrix_id', 'U') IS NOT NULL
 DROP TABLE dbo.UserMovieMatrix_id
@@ -47,11 +49,14 @@ FROM dbo.Ratings
 ORDER BY dbo.Ratings.UserId, dbo.Ratings.MovieId
 GO
 
---基于序列号的用户-用户关联矩阵
---定义两用户在同一部电影m的相似性为：f(rate1, rate2;m) = 2 / (1 + exp(rate2 - rate1)) rate2 >= rate1
---定义二者相似性为在所有共同看过的电影m上的相似性的求和
 
---首先定义函数f
+--User-User Incidence Matrices
+--define simiarilty-score of two users for one both-watched movie m as:
+--f(rate1, rate2;m) = 2 / (1 + exp(rate2 - rate1)) rate2 >= rate1
+--define the total simiarilty-score(weight) of two users as simple summation
+--over f(rate1, rate2; m) for all m that they both watched
+
+--define the function f for computing score of one movie
 IF OBJECT_ID(N'dbo.rateFunc', N'FN') IS NOT NULL
 	DROP FUNCTION dbo.rateFunc
 GO
@@ -71,8 +76,10 @@ END;
 GO
 
 /*
-不计算并存储这个表 太大
---计算出任两个用户所有共同看过的电影以及对应打分
+DO NOT RUN THIS
+THIS TABLE IS TOO BIG
+
+--table for all both-watched moives and respective rates of every user-pair
 IF OBJECT_ID(N'dbo.UserCommonMovie', N'U') IS NOT NULL
 	DROP TABLE dbo.UserCommonMovie
 GO
@@ -94,7 +101,7 @@ AND R1.UserId <> R2.UserId
 GO
 */
 
---基于ID的用户-用户关联矩阵
+--User-User Incidence Matrices based on UserId
 IF OBJECT_ID(N'dbo.UserUserMatrix_id', N'U') IS NOT NULL
 	DROP TABLE dbo.UserUserMatrix_id
 GO
@@ -116,8 +123,9 @@ ORDER BY R1.UserId, R2.UserId
 
 GO
 
---基于序列号的用户用户关联矩阵
---实际上完全和基于ID的一样 因为用户ID是连续的
+
+--User-User Incidence Matrices based on User Sequence Index
+--actually this is the same as above since UserId is continous and starts from 1 in this dataset
 IF OBJECT_ID(N'dbo.UserUserMatrix_seq', N'U') IS NOT NULL
 	DROP TABLE dbo.UserUserMatrix_seq
 GO

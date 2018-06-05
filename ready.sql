@@ -2,7 +2,7 @@
 USE movies
 SET NOCOUNT ON
 
---- 创建 movie表用来导入数据
+-- create table Movie for importing 
 
 IF OBJECT_ID('dbo.Movie', 'U') IS NOT NULL
 DROP TABLE dbo.Movie
@@ -15,7 +15,8 @@ CREATE TABLE dbo.Movie
 
 );
 GO
--- 导入数据到Movie
+-- import to Movie
+-- TODO: change the path to your local file
 BULK INSERT dbo.Movie
 FROM 'C:\Users\aJackie\日常\数据库\大作业\大作业1\数据库大作业\movies.csv'
 WITH
@@ -29,7 +30,7 @@ WITH
 )
 GO
 
--- 创建 movie_msg用来存MovieId, title, pub_date
+--  Movie_Msg table for MovieId, title, pub_date
 IF OBJECT_ID('dbo.MovieMsg', 'U') IS NOT NULL
 DROP TABLE dbo.MovieMsg
 GO
@@ -41,7 +42,7 @@ CREATE TABLE dbo.MovieMsg
 );
 GO
 
--- 将Movie表的数据处理得到MovieMsg表
+-- process Movie to produce table MovieMsg
 INSERT INTO dbo.MovieMsg(MovieId, title, pub_date)
 SELECT MovieId, (CASE WHEN patindex('%([0-9][0-9][0-9][0-9])%', title) = 0
                 THEN title
@@ -52,7 +53,7 @@ SELECT MovieId, (CASE WHEN patindex('%([0-9][0-9][0-9][0-9])%', title) = 0
 FROM dbo.Movie
 GO
 
--- 创建MovieType表用来存MovieId和genres
+-- create table MovieType for (MovieId, genres)
 IF OBJECT_ID('dbo.MovieType', 'U') IS NOT NULL
 DROP TABLE dbo.MovieType
 GO
@@ -67,7 +68,7 @@ CREATE TABLE dbo.MovieType
 );
 GO
 
---将Movie表的数据处理得到MovieType表
+--process Movie to produce table MovieType
 DECLARE @id INT
 DECLARE @genres VARCHAR(200)
 DECLARE  my_curs cursor for
