@@ -8,7 +8,7 @@ WHERE name = N'movies'
 CREATE DATABASE movies
 GO
 USE movies
---- 在这个数据库注册这个函数
+---register the function
 IF OBJECT_ID (N'dbo.splitall', N'IF') IS NOT NULL  
     DROP FUNCTION dbo.splitall;  
 GO

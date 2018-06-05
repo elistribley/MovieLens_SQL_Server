@@ -87,9 +87,9 @@ END
 CLOSE  my_curs
 DEALLOCATE my_curs
 GO
----Tag表
+---Tag
 
---没有主键，方便数据插入而建立的临时表
+--temporary table
 IF OBJECT_ID('dbo.Tags_Tmp', 'U') IS NOT NULL
 DROP TABLE dbo.Tags
 GO
@@ -104,7 +104,7 @@ CREATE TABLE dbo.Tags_Tmp
 );
 GO
 
---- Tag表
+--- Tag
 
 IF OBJECT_ID('dbo.Tags', 'U') IS NOT NULL
 DROP TABLE dbo.Tags
@@ -112,7 +112,7 @@ GO
 -- Create the table in the specified schema
 CREATE TABLE dbo.Tags
 (
-    TagId INT identity(1,1), -- 自增主键
+    TagId INT identity(1,1), -- self-increasing key
     UserId INT NOT NULL,
     MovieId INT NOT NULL,
     Tag VARCHAR(200) NOT NULL,
@@ -121,7 +121,8 @@ CREATE TABLE dbo.Tags
 );
 GO
 
--- 导入数据到Tags_Tmp
+-- import data into table Tags_Tmp
+-- TODO: change path to your local file
 BULK INSERT dbo.Tags_Tmp
 FROM 'C:\Users\aJackie\日常\数据库\大作业\大作业1\数据库大作业\tags.csv'
 WITH
@@ -134,15 +135,15 @@ WITH
     TABLOCK
 )
 GO
---将临时表数据导入Tags里
 
+--import data from Tmp to Tags
 INSERT dbo.Tags(UserId, MovieId, Tag, TagTime)
 SELECT UserId, MovieId, Tag, DATEADD(second, TagTime, {d '1970-01-01'})
 FROM dbo.Tags_Tmp
-DROP TABLE dbo.Tags_Tmp -- 删除临时表
+DROP TABLE dbo.Tags_Tmp -- drop temporary table
 GO
 
--- Rating表 ，
+-- create table Rating，
 IF OBJECT_ID('dbo.Ratings_Tmp', 'U') IS NOT NULL
 DROP TABLE dbo.Ratings_Tmp
 GO
@@ -152,7 +153,7 @@ CREATE TABLE dbo.Ratings_Tmp
     UserId INT NOT NULL,
     MovieId INT NOT NULL,
     Rate REAL NOT NULL,
-    RateTime BIGINT NOT NULL, --- 临时时间戳
+    RateTime BIGINT NOT NULL, --- temporary timestamp
     PRIMARY KEY(UserId, MovieId),
     FOREIGN KEY(MovieId) REFERENCES dbo.MovieMsg(MovieId)
 );
@@ -168,7 +169,7 @@ CREATE TABLE dbo.Ratings
     MovieId INT NOT NULL,
     Rate REAL NOT NULL,
     RateTime DATETIME NOT NULL,
-    --- 临时时间戳
+    --- temporary timestamp
     PRIMARY KEY(UserId, MovieId),
     FOREIGN KEY(MovieId) REFERENCES dbo.MovieMsg(MovieId)
 );
@@ -190,11 +191,11 @@ GO
 INSERT dbo.Ratings(UserId, MovieId, Rate, RateTime)
 SELECT UserId, MovieId, Rate, DATEADD(second, RateTime, {d '1970-01-01'})
 FROM dbo.Ratings_Tmp
-DROP TABLE dbo.Ratings_Tmp -- 删除临时表
+DROP TABLE dbo.Ratings_Tmp -- drop temporary table
 GO
 
---- 创建两个表，分别为movieId和UserId的序列号，从而便于生成矩阵
-
+--- create two tables to record the sequence index of movieId and UserId respectively
+--- used to produce the matrix
 
 IF OBJECT_ID('dbo.MovieSeq', 'U') IS NOT NULL
 DROP TABLE dbo.MovieSeq
@@ -207,7 +208,7 @@ CREATE TABLE dbo.MovieSeq
 );
 GO
 
--- 插入
+-- insert
 INSERT INTO dbo.MovieSeq(MovieId)
 SELECT MovieId FROM dbo.MovieMsg ORDER BY MovieId
 CREATE INDEX Movie_index ON dbo.MovieSeq(MovieId)
@@ -224,7 +225,7 @@ CREATE TABLE dbo.UserSeq
 );
 GO
 
--- 插入
+-- insert
 INSERT INTO dbo.UserSeq(UserId)
 SELECT DISTINCT UserId FROM dbo.Ratings ORDER BY UserId
 CREATE INDEX User_index ON dbo.UserSeq(UserId)
