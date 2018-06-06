@@ -18,7 +18,7 @@ GO
 -- import to Movie
 -- TODO: change the path to your local file
 BULK INSERT dbo.Movie
-FROM 'C:\Users\aJackie\日常\数据库\大作业\大作业1\数据库大作业\movies.csv'
+FROM '/home/movies.csv'
 WITH
 (
     FORMAT = 'CSV',
@@ -98,7 +98,7 @@ CREATE TABLE dbo.Tags_Tmp
 (
     UserId INT NOT NULL,
     MovieId INT NOT NULL,
-    Tag VARCHAR(200) NOT NULL,
+    Tag VARCHAR(500) NOT NULL,
     TagTime BIGINT NOT NULL,
     FOREIGN KEY(MovieId) REFERENCES dbo.MovieMsg(MovieId)
 );
@@ -115,7 +115,7 @@ CREATE TABLE dbo.Tags
     TagId INT identity(1,1), -- self-increasing key
     UserId INT NOT NULL,
     MovieId INT NOT NULL,
-    Tag VARCHAR(200) NOT NULL,
+    Tag VARCHAR(500) NOT NULL,
     TagTime DATETIME NOT NULL,
     FOREIGN KEY(MovieId) REFERENCES dbo.MovieMsg(MovieId)
 );
@@ -124,7 +124,7 @@ GO
 -- import data into table Tags_Tmp
 -- TODO: change path to your local file
 BULK INSERT dbo.Tags_Tmp
-FROM 'C:\Users\aJackie\日常\数据库\大作业\大作业1\数据库大作业\tags.csv'
+FROM '/home/tags.csv'
 WITH
 (
     FORMAT = 'CSV', 
@@ -176,7 +176,7 @@ CREATE TABLE dbo.Ratings
 GO
 
 BULK INSERT dbo.Ratings_Tmp
-FROM 'C:\Users\aJackie\日常\数据库\大作业\大作业1\数据库大作业\ratings.csv'
+FROM '/home/ratings.csv'
 WITH
 (
     FORMAT = 'CSV', 

@@ -1,0 +1,82 @@
+[
+  {
+    "genres": "Crime",
+    "avg_rate": "3.68096537306354"
+  },
+  {
+    "genres": "Adventure",
+    "avg_rate": "3.51016828402292"
+  },
+  {
+    "genres": "Western",
+    "avg_rate": "3.57538456199743"
+  },
+  {
+    "genres": "Fantasy",
+    "avg_rate": "3.50560145004399"
+  },
+  {
+    "genres": "Thriller",
+    "avg_rate": "3.51588195987378"
+  },
+  {
+    "genres": "Romance",
+    "avg_rate": "3.54187250263584"
+  },
+  {
+    "genres": "Children",
+    "avg_rate": "3.41967286044892"
+  },
+  {
+    "genres": "Action",
+    "avg_rate": "3.45814366357024"
+  },
+  {
+    "genres": "Film-Noir",
+    "avg_rate": "3.93355386908068"
+  },
+  {
+    "genres": "Documentary",
+    "avg_rate": "3.71389773219793"
+  },
+  {
+    "genres": "Horror",
+    "avg_rate": "3.27900001553253"
+  },
+  {
+    "genres": "Drama",
+    "avg_rate": "3.67502551292574"
+  },
+  {
+    "genres": "War",
+    "avg_rate": "3.79850779476987"
+  },
+  {
+    "genres": "(no genres listed)",
+    "avg_rate": "3.14768369779252"
+  },
+  {
+    "genres": "Mystery",
+    "avg_rate": "3.66353847197391"
+  },
+  {
+    "genres": "Animation",
+    "avg_rate": "3.60808933286008"
+  },
+  {
+    "genres": "Comedy",
+    "avg_rate": "3.41837435334526"
+  },
+  {
+    "genres": "IMAX",
+    "avg_rate": "3.62822419887793"
+  },
+  {
+    "genres": "Sci-Fi",
+    "avg_rate": "3.46308252905845"
+  },
+  {
+    "genres": "Musical",
+    "avg_rate": "3.54338640464002"
+  }
+]

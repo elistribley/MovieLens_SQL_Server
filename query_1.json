@@ -1,0 +1,82 @@
+[
+  {
+    "genres": "Crime",
+    "movie_num": "4247"
+  },
+  {
+    "genres": "Adventure",
+    "movie_num": "3369"
+  },
+  {
+    "genres": "Animation",
+    "movie_num": "1942"
+  },
+  {
+    "genres": "Comedy",
+    "movie_num": "13002"
+  },
+  {
+    "genres": "IMAX",
+    "movie_num": "197"
+  },
+  {
+    "genres": "Western",
+    "movie_num": "1028"
+  },
+  {
+    "genres": "Fantasy",
+    "movie_num": "2212"
+  },
+  {
+    "genres": "Sci-Fi",
+    "movie_num": "2847"
+  },
+  {
+    "genres": "Musical",
+    "movie_num": "1079"
+  },
+  {
+    "genres": "Thriller",
+    "movie_num": "6761"
+  },
+  {
+    "genres": "Romance",
+    "movie_num": "6069"
+  },
+  {
+    "genres": "Children",
+    "movie_num": "2182"
+  },
+  {
+    "genres": "Action",
+    "movie_num": "5775"
+  },
+  {
+    "genres": "Film-Noir",
+    "movie_num": "360"
+  },
+  {
+    "genres": "Documentary",
+    "movie_num": "4122"
+  },
+  {
+    "genres": "Horror",
+    "movie_num": "4448"
+  },
+  {
+    "genres": "Drama",
+    "movie_num": "19806"
+  },
+  {
+    "genres": "War",
+    "movie_num": "1544"
+  },
+  {
+    "genres": "(no genres listed)",
+    "movie_num": "2756"
+  },
+  {
+    "genres": "Mystery",
+    "movie_num": "2274"
+  }
+]

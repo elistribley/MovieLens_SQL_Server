@@ -1,0 +1,1082 @@
+[
+  {
+    "genres": "Action",
+    "MovieId": "2019",
+    "avg_rate": "4.2550736029727",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Action",
+    "MovieId": "2959",
+    "avg_rate": "4.23071604691457",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Action",
+    "MovieId": "908",
+    "avg_rate": "4.20522800189344",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Action",
+    "MovieId": "6016",
+    "avg_rate": "4.18787286308718",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Action",
+    "MovieId": "58559",
+    "avg_rate": "4.18207070707071",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Action",
+    "MovieId": "79132",
+    "avg_rate": "4.16175595659688",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Action",
+    "MovieId": "2571",
+    "avg_rate": "4.15409825551565",
+    "rowNum": "7"
+  },
+  {
+    "genres": "Action",
+    "MovieId": "1196",
+    "avg_rate": "4.14253632118303",
+    "rowNum": "8"
+  },
+  {
+    "genres": "Action",
+    "MovieId": "1198",
+    "avg_rate": "4.13461377380932",
+    "rowNum": "9"
+  },
+  {
+    "genres": "Action",
+    "MovieId": "260",
+    "avg_rate": "4.13229930560062",
+    "rowNum": "10"
+  },
+  {
+    "genres": "Adventure",
+    "MovieId": "2019",
+    "avg_rate": "4.2550736029727",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Adventure",
+    "MovieId": "908",
+    "avg_rate": "4.20522800189344",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Adventure",
+    "MovieId": "5618",
+    "avg_rate": "4.20258930712059",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Adventure",
+    "MovieId": "6016",
+    "avg_rate": "4.18787286308718",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Adventure",
+    "MovieId": "1136",
+    "avg_rate": "4.15515387372625",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Adventure",
+    "MovieId": "1196",
+    "avg_rate": "4.14253632118303",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Adventure",
+    "MovieId": "1198",
+    "avg_rate": "4.13461377380932",
+    "rowNum": "7"
+  },
+  {
+    "genres": "Adventure",
+    "MovieId": "260",
+    "avg_rate": "4.13229930560062",
+    "rowNum": "8"
+  },
+  {
+    "genres": "Adventure",
+    "MovieId": "1197",
+    "avg_rate": "4.13125748210403",
+    "rowNum": "9"
+  },
+  {
+    "genres": "Adventure",
+    "MovieId": "1201",
+    "avg_rate": "4.11972701381052",
+    "rowNum": "10"
+  },
+  {
+    "genres": "Animation",
+    "MovieId": "5618",
+    "avg_rate": "4.20258930712059",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Animation",
+    "MovieId": "1148",
+    "avg_rate": "4.1346436768081",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Animation",
+    "MovieId": "3000",
+    "avg_rate": "4.11399522452438",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Animation",
+    "MovieId": "745",
+    "avg_rate": "4.11260898234303",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Animation",
+    "MovieId": "60069",
+    "avg_rate": "4.00888417963974",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Animation",
+    "MovieId": "68954",
+    "avg_rate": "3.97862867319679",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Animation",
+    "MovieId": "134853",
+    "avg_rate": "3.96757617098681",
+    "rowNum": "7"
+  },
+  {
+    "genres": "Animation",
+    "MovieId": "76093",
+    "avg_rate": "3.92239851464259",
+    "rowNum": "8"
+  },
+  {
+    "genres": "Animation",
+    "MovieId": "78499",
+    "avg_rate": "3.8890399254311",
+    "rowNum": "9"
+  },
+  {
+    "genres": "Animation",
+    "MovieId": "1",
+    "avg_rate": "3.88815749606108",
+    "rowNum": "10"
+  },
+  {
+    "genres": "Children",
+    "MovieId": "1148",
+    "avg_rate": "4.1346436768081",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Children",
+    "MovieId": "745",
+    "avg_rate": "4.11260898234303",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Children",
+    "MovieId": "953",
+    "avg_rate": "4.01630938586327",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Children",
+    "MovieId": "60069",
+    "avg_rate": "4.00888417963974",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Children",
+    "MovieId": "2804",
+    "avg_rate": "3.99386460774852",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Children",
+    "MovieId": "68954",
+    "avg_rate": "3.97862867319679",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Children",
+    "MovieId": "134853",
+    "avg_rate": "3.96757617098681",
+    "rowNum": "7"
+  },
+  {
+    "genres": "Children",
+    "MovieId": "919",
+    "avg_rate": "3.95393076430482",
+    "rowNum": "8"
+  },
+  {
+    "genres": "Children",
+    "MovieId": "76093",
+    "avg_rate": "3.92239851464259",
+    "rowNum": "9"
+  },
+  {
+    "genres": "Children",
+    "MovieId": "78499",
+    "avg_rate": "3.8890399254311",
+    "rowNum": "10"
+  },
+  {
+    "genres": "Comedy",
+    "MovieId": "750",
+    "avg_rate": "4.21303041018388",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Comedy",
+    "MovieId": "296",
+    "avg_rate": "4.16997531313637",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Comedy",
+    "MovieId": "2324",
+    "avg_rate": "4.16706278470984",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Comedy",
+    "MovieId": "1136",
+    "avg_rate": "4.15515387372625",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Comedy",
+    "MovieId": "1234",
+    "avg_rate": "4.14704532415376",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Comedy",
+    "MovieId": "1148",
+    "avg_rate": "4.1346436768081",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Comedy",
+    "MovieId": "1197",
+    "avg_rate": "4.13125748210403",
+    "rowNum": "7"
+  },
+  {
+    "genres": "Comedy",
+    "MovieId": "4973",
+    "avg_rate": "4.1282457159454",
+    "rowNum": "8"
+  },
+  {
+    "genres": "Comedy",
+    "MovieId": "92259",
+    "avg_rate": "4.12223407091442",
+    "rowNum": "9"
+  },
+  {
+    "genres": "Comedy",
+    "MovieId": "745",
+    "avg_rate": "4.11260898234303",
+    "rowNum": "10"
+  },
+  {
+    "genres": "Crime",
+    "MovieId": "318",
+    "avg_rate": "4.42901451439362",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Crime",
+    "MovieId": "858",
+    "avg_rate": "4.33981075871736",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Crime",
+    "MovieId": "50",
+    "avg_rate": "4.30018896256179",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Crime",
+    "MovieId": "1221",
+    "avg_rate": "4.26347501295019",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Crime",
+    "MovieId": "2959",
+    "avg_rate": "4.23071604691457",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Crime",
+    "MovieId": "6016",
+    "avg_rate": "4.18787286308718",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Crime",
+    "MovieId": "58559",
+    "avg_rate": "4.18207070707071",
+    "rowNum": "7"
+  },
+  {
+    "genres": "Crime",
+    "MovieId": "1213",
+    "avg_rate": "4.17828875746609",
+    "rowNum": "8"
+  },
+  {
+    "genres": "Crime",
+    "MovieId": "296",
+    "avg_rate": "4.16997531313637",
+    "rowNum": "9"
+  },
+  {
+    "genres": "Crime",
+    "MovieId": "79132",
+    "avg_rate": "4.16175595659688",
+    "rowNum": "10"
+  },
+  {
+    "genres": "Documentary",
+    "MovieId": "246",
+    "avg_rate": "4.00433753943218",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Documentary",
+    "MovieId": "5669",
+    "avg_rate": "3.73103231660501",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Documentary",
+    "MovieId": "8464",
+    "avg_rate": "3.55672616856827",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Documentary",
+    "MovieId": "8622",
+    "avg_rate": "3.51303612299731",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Drama",
+    "MovieId": "318",
+    "avg_rate": "4.42901451439362",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Drama",
+    "MovieId": "858",
+    "avg_rate": "4.33981075871736",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Drama",
+    "MovieId": "527",
+    "avg_rate": "4.26653069669829",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Drama",
+    "MovieId": "1221",
+    "avg_rate": "4.26347501295019",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Drama",
+    "MovieId": "2019",
+    "avg_rate": "4.2550736029727",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Drama",
+    "MovieId": "1203",
+    "avg_rate": "4.23120857007576",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Drama",
+    "MovieId": "2959",
+    "avg_rate": "4.23071604691457",
+    "rowNum": "7"
+  },
+  {
+    "genres": "Drama",
+    "MovieId": "1193",
+    "avg_rate": "4.22913497743311",
+    "rowNum": "8"
+  },
+  {
+    "genres": "Drama",
+    "MovieId": "912",
+    "avg_rate": "4.21439270379123",
+    "rowNum": "9"
+  },
+  {
+    "genres": "Drama",
+    "MovieId": "6016",
+    "avg_rate": "4.18787286308718",
+    "rowNum": "10"
+  },
+  {
+    "genres": "Fantasy",
+    "MovieId": "5618",
+    "avg_rate": "4.20258930712059",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Fantasy",
+    "MovieId": "1136",
+    "avg_rate": "4.15515387372625",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Fantasy",
+    "MovieId": "1197",
+    "avg_rate": "4.13125748210403",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Fantasy",
+    "MovieId": "3000",
+    "avg_rate": "4.11399522452438",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Fantasy",
+    "MovieId": "7153",
+    "avg_rate": "4.10947778613732",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Fantasy",
+    "MovieId": "4993",
+    "avg_rate": "4.10416703327644",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Fantasy",
+    "MovieId": "5952",
+    "avg_rate": "4.07977718669288",
+    "rowNum": "7"
+  },
+  {
+    "genres": "Fantasy",
+    "MovieId": "953",
+    "avg_rate": "4.01630938586327",
+    "rowNum": "8"
+  },
+  {
+    "genres": "Fantasy",
+    "MovieId": "1199",
+    "avg_rate": "4.01283536585366",
+    "rowNum": "9"
+  },
+  {
+    "genres": "Fantasy",
+    "MovieId": "48394",
+    "avg_rate": "3.99039758321195",
+    "rowNum": "10"
+  },
+  {
+    "genres": "Film-Noir",
+    "MovieId": "1252",
+    "avg_rate": "4.15771593194543",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Film-Noir",
+    "MovieId": "913",
+    "avg_rate": "4.13591485190113",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Film-Noir",
+    "MovieId": "1617",
+    "avg_rate": "4.06639750181371",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Film-Noir",
+    "MovieId": "4848",
+    "avg_rate": "3.81962470033893",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Film-Noir",
+    "MovieId": "32587",
+    "avg_rate": "3.80345695970696",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Film-Noir",
+    "MovieId": "1748",
+    "avg_rate": "3.7998426612722",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Horror",
+    "MovieId": "593",
+    "avg_rate": "4.15224553390899",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Horror",
+    "MovieId": "1219",
+    "avg_rate": "4.06520614110747",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Horror",
+    "MovieId": "1214",
+    "avg_rate": "4.04735021187577",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Horror",
+    "MovieId": "2762",
+    "avg_rate": "4.02128195314546",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Horror",
+    "MovieId": "1258",
+    "avg_rate": "4.01465895492621",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Horror",
+    "MovieId": "1200",
+    "avg_rate": "3.99347357556992",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Horror",
+    "MovieId": "8874",
+    "avg_rate": "3.88457470496549",
+    "rowNum": "7"
+  },
+  {
+    "genres": "Horror",
+    "MovieId": "2288",
+    "avg_rate": "3.82623953927832",
+    "rowNum": "8"
+  },
+  {
+    "genres": "Horror",
+    "MovieId": "1387",
+    "avg_rate": "3.79026040437416",
+    "rowNum": "9"
+  },
+  {
+    "genres": "Horror",
+    "MovieId": "71535",
+    "avg_rate": "3.77916058707407",
+    "rowNum": "10"
+  },
+  {
+    "genres": "IMAX",
+    "MovieId": "58559",
+    "avg_rate": "4.18207070707071",
+    "rowNum": "1"
+  },
+  {
+    "genres": "IMAX",
+    "MovieId": "79132",
+    "avg_rate": "4.16175595659688",
+    "rowNum": "2"
+  },
+  {
+    "genres": "IMAX",
+    "MovieId": "109487",
+    "avg_rate": "4.08682394479217",
+    "rowNum": "3"
+  },
+  {
+    "genres": "IMAX",
+    "MovieId": "91529",
+    "avg_rate": "3.97305626754547",
+    "rowNum": "4"
+  },
+  {
+    "genres": "IMAX",
+    "MovieId": "33794",
+    "avg_rate": "3.94485559877457",
+    "rowNum": "5"
+  },
+  {
+    "genres": "IMAX",
+    "MovieId": "76093",
+    "avg_rate": "3.92239851464259",
+    "rowNum": "6"
+  },
+  {
+    "genres": "IMAX",
+    "MovieId": "44191",
+    "avg_rate": "3.91984764089122",
+    "rowNum": "7"
+  },
+  {
+    "genres": "IMAX",
+    "MovieId": "88125",
+    "avg_rate": "3.90613061670002",
+    "rowNum": "8"
+  },
+  {
+    "genres": "IMAX",
+    "MovieId": "78499",
+    "avg_rate": "3.8890399254311",
+    "rowNum": "9"
+  },
+  {
+    "genres": "IMAX",
+    "MovieId": "150",
+    "avg_rate": "3.88403058380939",
+    "rowNum": "10"
+  },
+  {
+    "genres": "Musical",
+    "MovieId": "899",
+    "avg_rate": "4.02758537371134",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Musical",
+    "MovieId": "919",
+    "avg_rate": "3.95393076430482",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Musical",
+    "MovieId": "914",
+    "avg_rate": "3.86577039784221",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Musical",
+    "MovieId": "364",
+    "avg_rate": "3.80464869876167",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Musical",
+    "MovieId": "1035",
+    "avg_rate": "3.79883975215648",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Musical",
+    "MovieId": "1220",
+    "avg_rate": "3.79720015973732",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Musical",
+    "MovieId": "551",
+    "avg_rate": "3.73699459181046",
+    "rowNum": "7"
+  },
+  {
+    "genres": "Musical",
+    "MovieId": "1947",
+    "avg_rate": "3.71865015974441",
+    "rowNum": "8"
+  },
+  {
+    "genres": "Musical",
+    "MovieId": "1028",
+    "avg_rate": "3.71562347486579",
+    "rowNum": "9"
+  },
+  {
+    "genres": "Musical",
+    "MovieId": "1073",
+    "avg_rate": "3.70145876020673",
+    "rowNum": "10"
+  },
+  {
+    "genres": "Mystery",
+    "MovieId": "50",
+    "avg_rate": "4.30018896256179",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Mystery",
+    "MovieId": "904",
+    "avg_rate": "4.23255214436372",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Mystery",
+    "MovieId": "908",
+    "avg_rate": "4.20522800189344",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Mystery",
+    "MovieId": "79132",
+    "avg_rate": "4.16175595659688",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Mystery",
+    "MovieId": "1252",
+    "avg_rate": "4.15771593194543",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Mystery",
+    "MovieId": "4226",
+    "avg_rate": "4.15707758070063",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Mystery",
+    "MovieId": "913",
+    "avg_rate": "4.13591485190113",
+    "rowNum": "7"
+  },
+  {
+    "genres": "Mystery",
+    "MovieId": "903",
+    "avg_rate": "4.12129043498461",
+    "rowNum": "8"
+  },
+  {
+    "genres": "Mystery",
+    "MovieId": "923",
+    "avg_rate": "4.0940470475276",
+    "rowNum": "9"
+  },
+  {
+    "genres": "Mystery",
+    "MovieId": "1089",
+    "avg_rate": "4.08937975007828",
+    "rowNum": "10"
+  },
+  {
+    "genres": "Romance",
+    "MovieId": "912",
+    "avg_rate": "4.21439270379123",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Romance",
+    "MovieId": "908",
+    "avg_rate": "4.20522800189344",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Romance",
+    "MovieId": "2324",
+    "avg_rate": "4.16706278470984",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Romance",
+    "MovieId": "1197",
+    "avg_rate": "4.13125748210403",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Romance",
+    "MovieId": "2858",
+    "avg_rate": "4.13070370946284",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Romance",
+    "MovieId": "4973",
+    "avg_rate": "4.1282457159454",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Romance",
+    "MovieId": "903",
+    "avg_rate": "4.12129043498461",
+    "rowNum": "7"
+  },
+  {
+    "genres": "Romance",
+    "MovieId": "7361",
+    "avg_rate": "4.07685361068726",
+    "rowNum": "8"
+  },
+  {
+    "genres": "Romance",
+    "MovieId": "1704",
+    "avg_rate": "4.06809085578811",
+    "rowNum": "9"
+  },
+  {
+    "genres": "Romance",
+    "MovieId": "969",
+    "avg_rate": "4.06584204709683",
+    "rowNum": "10"
+  },
+  {
+    "genres": "Sci-Fi",
+    "MovieId": "79132",
+    "avg_rate": "4.16175595659688",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Sci-Fi",
+    "MovieId": "2571",
+    "avg_rate": "4.15409825551565",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Sci-Fi",
+    "MovieId": "1196",
+    "avg_rate": "4.14253632118303",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Sci-Fi",
+    "MovieId": "260",
+    "avg_rate": "4.13229930560062",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Sci-Fi",
+    "MovieId": "541",
+    "avg_rate": "4.12244293712317",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Sci-Fi",
+    "MovieId": "109487",
+    "avg_rate": "4.08682394479217",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Sci-Fi",
+    "MovieId": "48780",
+    "avg_rate": "4.07829453541132",
+    "rowNum": "7"
+  },
+  {
+    "genres": "Sci-Fi",
+    "MovieId": "7361",
+    "avg_rate": "4.07685361068726",
+    "rowNum": "8"
+  },
+  {
+    "genres": "Sci-Fi",
+    "MovieId": "134130",
+    "avg_rate": "4.0482151318907",
+    "rowNum": "9"
+  },
+  {
+    "genres": "Sci-Fi",
+    "MovieId": "1214",
+    "avg_rate": "4.04735021187577",
+    "rowNum": "10"
+  },
+  {
+    "genres": "Thriller",
+    "MovieId": "50",
+    "avg_rate": "4.30018896256179",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Thriller",
+    "MovieId": "904",
+    "avg_rate": "4.23255214436372",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Thriller",
+    "MovieId": "2959",
+    "avg_rate": "4.23071604691457",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Thriller",
+    "MovieId": "908",
+    "avg_rate": "4.20522800189344",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Thriller",
+    "MovieId": "6016",
+    "avg_rate": "4.18787286308718",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Thriller",
+    "MovieId": "296",
+    "avg_rate": "4.16997531313637",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Thriller",
+    "MovieId": "79132",
+    "avg_rate": "4.16175595659688",
+    "rowNum": "7"
+  },
+  {
+    "genres": "Thriller",
+    "MovieId": "1252",
+    "avg_rate": "4.15771593194543",
+    "rowNum": "8"
+  },
+  {
+    "genres": "Thriller",
+    "MovieId": "4226",
+    "avg_rate": "4.15707758070063",
+    "rowNum": "9"
+  },
+  {
+    "genres": "Thriller",
+    "MovieId": "2571",
+    "avg_rate": "4.15409825551565",
+    "rowNum": "10"
+  },
+  {
+    "genres": "War",
+    "MovieId": "527",
+    "avg_rate": "4.26653069669829",
+    "rowNum": "1"
+  },
+  {
+    "genres": "War",
+    "MovieId": "750",
+    "avg_rate": "4.21303041018388",
+    "rowNum": "2"
+  },
+  {
+    "genres": "War",
+    "MovieId": "2324",
+    "avg_rate": "4.16706278470984",
+    "rowNum": "3"
+  },
+  {
+    "genres": "War",
+    "MovieId": "1204",
+    "avg_rate": "4.11505843071786",
+    "rowNum": "4"
+  },
+  {
+    "genres": "War",
+    "MovieId": "1208",
+    "avg_rate": "4.1065931293032",
+    "rowNum": "5"
+  },
+  {
+    "genres": "War",
+    "MovieId": "1233",
+    "avg_rate": "4.1054343666284",
+    "rowNum": "6"
+  },
+  {
+    "genres": "War",
+    "MovieId": "1262",
+    "avg_rate": "4.10528850012038",
+    "rowNum": "7"
+  },
+  {
+    "genres": "War",
+    "MovieId": "1267",
+    "avg_rate": "4.0907881773399",
+    "rowNum": "8"
+  },
+  {
+    "genres": "War",
+    "MovieId": "1250",
+    "avg_rate": "4.08344899375434",
+    "rowNum": "9"
+  },
+  {
+    "genres": "War",
+    "MovieId": "969",
+    "avg_rate": "4.06584204709683",
+    "rowNum": "10"
+  },
+  {
+    "genres": "Western",
+    "MovieId": "1201",
+    "avg_rate": "4.11972701381052",
+    "rowNum": "1"
+  },
+  {
+    "genres": "Western",
+    "MovieId": "1304",
+    "avg_rate": "4.03261489337439",
+    "rowNum": "2"
+  },
+  {
+    "genres": "Western",
+    "MovieId": "99114",
+    "avg_rate": "4.00847806888431",
+    "rowNum": "3"
+  },
+  {
+    "genres": "Western",
+    "MovieId": "1266",
+    "avg_rate": "3.98410288193368",
+    "rowNum": "4"
+  },
+  {
+    "genres": "Western",
+    "MovieId": "3671",
+    "avg_rate": "3.85889446422791",
+    "rowNum": "5"
+  },
+  {
+    "genres": "Western",
+    "MovieId": "590",
+    "avg_rate": "3.74068915812848",
+    "rowNum": "6"
+  },
+  {
+    "genres": "Western",
+    "MovieId": "1408",
+    "avg_rate": "3.7101814516129",
+    "rowNum": "7"
+  },
+  {
+    "genres": "Western",
+    "MovieId": "553",
+    "avg_rate": "3.69397983027918",
+    "rowNum": "8"
+  },
+  {
+    "genres": "Western",
+    "MovieId": "266",
+    "avg_rate": "3.50014018953625",
+    "rowNum": "9"
+  },
+  {
+    "genres": "Western",
+    "MovieId": "163",
+    "avg_rate": "3.43211674493253",
+    "rowNum": "10"
+  }
+]
