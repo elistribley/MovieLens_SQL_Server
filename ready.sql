@@ -91,7 +91,7 @@ GO
 
 --temporary table
 IF OBJECT_ID('dbo.Tags_Tmp', 'U') IS NOT NULL
-DROP TABLE dbo.Tags
+DROP TABLE dbo.Tags_Tmp
 GO
 
 CREATE TABLE dbo.Tags_Tmp

@@ -1,11 +1,11 @@
 USE movies
 GO
--- -- the number of movies of every genre
+-- -- -- the number of movies of every genre
 SELECT dbo.MovieType.genres, count(*) movie_num FROM dbo.MovieType
 GROUP BY dbo.MovieType.genres	
 GO
 
--- -- average rate of every genre
+-- -- -- average rate of every genre
 SELECT MType.genres, AVG(Ratings.Rate) avg_rate
 FROM dbo.MovieType MType, dbo.Ratings Ratings
 WHERE MType.MovieId = Ratings.MovieId
@@ -43,7 +43,12 @@ ORDER BY avg_rate DESC
 GO
 -- query 3 ： Total execution time: 00:00:47.918
 
--- considering some type of movie, set the threshold  1,000
+
+WITH FlagUser(UserId, MovieId) AS
+(SELECT dbo.Tags.UserId, dbo.Tags.MovieId FROM dbo.Tags
+UNION 
+(SELECT dbo.Ratings.UserId, dbo.Ratings.MovieId FROM dbo.Ratings))
+--considering some type of movie, set the threshold  1,000
 SELECT * FROM
     (SELECT MType.genres, MovieAvgRate.MovieId, avg_rate, 
         ROW_NUMBER() over
