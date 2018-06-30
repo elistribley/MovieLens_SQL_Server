@@ -3,6 +3,7 @@ import sys
 import argparse
 import signal
 import pymssql as sql
+import json
 
 def handler(signum, frame):
     print("exiting...")
@@ -21,6 +22,7 @@ parser.add_argument("-P", "--passward", type=str, required=True, help="login pas
 parser.add_argument("-D", "--database", type=str, required=True, help="database name to connect to")
 parser.add_argument("-k1", "--k1", type=int, default=3, help="top-k1 users'info used for recommendation")
 parser.add_argument("-k2", "--k2", type=int, default=10, help="top-k2 movies of a user ranking is used")
+parser.add_argument("-f", "--file_save", type=str, default="./data/reco_data.json", help="json file name to save data")
 
 def main():
     args = parser.parse_args()
@@ -68,6 +70,9 @@ def main():
     user_movie = [sorted(one_user, key=lambda x:x[-1], reverse=True) for one_user in user_movie]
     # sort the user-user matrix in terms of similarity
     user_user = [sorted(one_user, key=lambda x:x[-1], reverse=True) for one_user in user_user]
+    data = {}
+    data["um"] = user_movie
+    data["uu"] = user_user
 
     # find top-k1 similar users of a user
     k1 = args.k1
@@ -104,6 +109,13 @@ def main():
         # minus from union
         union = union - set(m_seen)
         u_reco.append(list(union))
+
+    data["ur"] = u_reco
+    # save to json
+    data_str = json.dumps(data)
+    o = open(args.file_save, "w")
+    o.write(data_str)
+    o.close()
 
     # create table and insert into database
     cursor.execute(
