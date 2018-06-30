@@ -22,6 +22,7 @@ FROM 'C:\Users\aJackie\database_ml\ml-latest\movies.csv'
 WITH
 (
 	FORMAT = 'CSV',
+    CODEPAGE = '65001',
 	FIELDQUOTE = '"',
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',  --CSV field delimiter
@@ -98,7 +99,7 @@ CREATE TABLE dbo.Tags_Tmp
 (
 	UserId INT NOT NULL,
 	MovieId INT NOT NULL,
-	Tag VARCHAR(200) NOT NULL,
+	Tag VARCHAR(500) NOT NULL,
 	TagTime BIGINT NOT NULL,
 	FOREIGN KEY(MovieId) REFERENCES dbo.MovieMsg(MovieId)
 );
@@ -124,7 +125,7 @@ GO
 -- import data into table Tags_Tmp
 -- TODO: change path to your local file
 BULK INSERT dbo.Tags_Tmp
-FROM 'C:\Users\aJackie\日常\数据库\大作业\大作业1\数据库大作业\tags.csv'
+FROM 'C:\Users\aJackie\database_ml\ml-latest\tags.csv'
 WITH
 (
 	FORMAT = 'CSV', 
@@ -176,7 +177,7 @@ CREATE TABLE dbo.Ratings
 GO
 
 BULK INSERT dbo.Ratings_Tmp
-FROM 'C:\Users\aJackie\日常\数据库\大作业\大作业1\数据库大作业\ratings.csv'
+FROM 'C:\Users\aJackie\database_ml\ml-latest\ratings.csv'
 WITH
 (
 	FORMAT = 'CSV', 
