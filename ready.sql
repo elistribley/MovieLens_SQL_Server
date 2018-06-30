@@ -62,7 +62,7 @@ GO
 CREATE TABLE dbo.MovieType
 (
 	MovieId INT NOT NULL,
-	genres VARCHAR(100) NOT NULL,
+	genres VARCHAR(200) NOT NULL,
 	PRIMARY KEY(MovieId, genres),
 	FOREIGN KEY(MovieId) REFERENCES dbo.MovieMsg(MovieId)
 	-- specify more columns here
@@ -92,7 +92,7 @@ GO
 
 --temporary table
 IF OBJECT_ID('dbo.Tags_Tmp', 'U') IS NOT NULL
-DROP TABLE dbo.Tags
+DROP TABLE dbo.Tags_Tmp
 GO
 
 CREATE TABLE dbo.Tags_Tmp
@@ -116,7 +116,7 @@ CREATE TABLE dbo.Tags
 	TagId INT identity(1,1), -- self-increasing key
 	UserId INT NOT NULL,
 	MovieId INT NOT NULL,
-	Tag VARCHAR(200) NOT NULL,
+	Tag VARCHAR(500) NOT NULL,
 	TagTime DATETIME NOT NULL,
 	FOREIGN KEY(MovieId) REFERENCES dbo.MovieMsg(MovieId)
 );
@@ -129,6 +129,7 @@ FROM 'C:\Users\aJackie\database_ml\ml-latest\tags.csv'
 WITH
 (
 	FORMAT = 'CSV', 
+	CODEPAGE = '65001',
 	FIELDQUOTE = '"',
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',  --CSV field delimiter
@@ -141,6 +142,7 @@ GO
 INSERT dbo.Tags(UserId, MovieId, Tag, TagTime)
 SELECT UserId, MovieId, Tag, DATEADD(second, TagTime, {d '1970-01-01'})
 FROM dbo.Tags_Tmp
+WHERE UserId < 1000 -- only select ID < 1000 to save space
 DROP TABLE dbo.Tags_Tmp -- drop temporary table
 GO
 
@@ -181,6 +183,7 @@ FROM 'C:\Users\aJackie\database_ml\ml-latest\ratings.csv'
 WITH
 (
 	FORMAT = 'CSV', 
+	CODEPAGE = '65001',
 	FIELDQUOTE = '"',
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',  --CSV field delimiter
@@ -192,6 +195,7 @@ GO
 INSERT dbo.Ratings(UserId, MovieId, Rate, RateTime)
 SELECT UserId, MovieId, Rate, DATEADD(second, RateTime, {d '1970-01-01'})
 FROM dbo.Ratings_Tmp
+WHERE UserId < 1000
 DROP TABLE dbo.Ratings_Tmp -- drop temporary table
 GO
 

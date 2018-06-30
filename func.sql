@@ -1,10 +1,6 @@
 USE master
 GO
-IF NOT EXISTS (
-    SELECT name
-FROM sys.databases
-WHERE name = N'movies'
-)
+DROP DATABASE IF EXISTS movies
 CREATE DATABASE movies
 GO
 USE movies
